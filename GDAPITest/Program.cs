@@ -25,7 +25,7 @@ namespace GDAPITest
                 for (var i = 0; i < lcount; i++)
                 {
                     var userLevel = database.UserLevels[i];
-                    Console.WriteLine($"\n{i.ToString().PadLeft(lcountWidth)})\nName: {userLevel.Name}\nDescription:");
+                    Console.WriteLine($"\n{i.ToString().PadLeft(lcountWidth)})\nName: {userLevel.Name}");
                 }
                 var picked = -1;
                 while (picked < 0 || picked >= lcount)
